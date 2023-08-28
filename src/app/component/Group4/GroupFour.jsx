@@ -4,7 +4,7 @@ import Image from 'next/image'
 const GroupFour = () => {
   return (
     <div  style={{ position: 'relative', height: '100vh' }}>
-    <Image src="/images/19White.png" alt="picture" width={500} height={500} className='blur-image' style={{ filter: 'blur(10px)', position: 'absolute', top: 150, left: 500, width: '30%', height: '30%' }} />
+    <Image src="/images/19White.png" alt="picture" width={500} height={500} className='lg:w-[250px] ' style={{ filter: 'blur(10px)', position: 'absolute', top: 150, left: 500, width: '30%', height: '30%' }} />
   
     <div className='h-[500px] bg-black text-white'>
     <div class="flex justify-around  bg-transparent">

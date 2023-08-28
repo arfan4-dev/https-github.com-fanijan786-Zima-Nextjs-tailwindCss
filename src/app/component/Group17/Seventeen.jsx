@@ -10,7 +10,7 @@ const Seventeen = () => {
 
         <div className='flex flex-col justify-around items-center'>
             <div className=' p-5' style={{border:"1px solid brown", borderRadius:'20px'}}>
-                <p>ZIMA</p>
+            <Image src='/images/logo.png' alt='' width={50} height={50}/>
             </div>
             <div>
                 <p className='text-[30px]'>DOWNLOAD</p>
