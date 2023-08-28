@@ -1,0 +1,16 @@
+/* style.css */
+
+  
+  /* Media query for screens with a width of 1025px or less */
+  @media (max-width: 1025px) {
+    #img1, #img4 {
+      width:auto ;
+      height:auto ;
+    }
+  #img2,#img3{
+    width:auto;
+     height:auto;
+  }
+    
+  }
+  

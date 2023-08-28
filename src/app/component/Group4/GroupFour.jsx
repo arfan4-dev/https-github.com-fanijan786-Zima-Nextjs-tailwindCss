@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-
+import './style.css'
 const GroupFour = () => {
   return (
-    <div  style={{ position: 'relative', height: '100vh' }}>
-    <Image src="/images/19White.png" alt="picture" width={500} height={500} className='lg:w-[250px] ' style={{ filter: 'blur(10px)', position: 'absolute', top: 150, left: 500, width: '30%', height: '30%' }} />
+    <div  style={{ position: 'relative', height: '500px' }}>
+    <p id='letterPara' style={{ filter: 'blur(7px)', position: 'absolute', top: '40%', left: '33%',letterSpacing:'10px', fontSize:'60px', color:'white' }}>ZIMO GROUP</p>
   
     <div className='h-[500px] bg-black text-white'>
     <div class="flex justify-around  bg-transparent">
@@ -19,7 +19,7 @@ const GroupFour = () => {
 <p></p>
           <p></p>
           <p></p>
-  
+
 </div>
 
 <div class="flex justify-around bg-transparent">

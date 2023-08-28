@@ -9,7 +9,7 @@ const GroupThirteen = () => {
 <Image src='/images/ZDOC.png' alt='' width={100} height={100}/>
 <p>Document-signing software technology that lets you sign documents online.</p>
 <p></p>
-        </div>
+        </div> 
 
 {/* Parent div */}
 <div className='mr-10'>
