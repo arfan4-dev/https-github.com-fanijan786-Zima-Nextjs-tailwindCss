@@ -23,7 +23,7 @@ const Seventeen = () => {
                 <p style={{color:'brown'}}>Get the Zimo App on a phone or tablet</p>
                 <p style={{color:'brown'}}>To install ZIMO, follow the link for your smartPhone on tablet</p>
             </div>
-        </div>
+        </div> 
         <div className=''>
             <Image  className='img'  src='/images/phone.png' alt='' width={200} height={300} id='img4'/>
         </div>
