@@ -1,0 +1,14 @@
+
+@media  (max-width: 768px) {
+     #twentyB {
+      display: block;
+      text-align: left;
+    }
+    #twentyA #twentyB{
+      text-align: justify;
+    }
+    #twentyB p{
+      margin-top: 0%;
+    }
+  }
+  

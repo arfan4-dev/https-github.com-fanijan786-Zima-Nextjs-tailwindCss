@@ -1,0 +1,20 @@
+ 
+  /* Media query for medium screens */
+  @media  (min-width: 452px) and (max-width: 672px) {
+    #first {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      align-items: center;
+    
+    
+    }
+   #firstA{
+      /* margin-left:450px */
+    }
+    
+   #firstB{
+      /* margin-right:450px */
+    }
+  }
+  

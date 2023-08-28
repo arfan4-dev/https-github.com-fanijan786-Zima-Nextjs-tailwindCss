@@ -1,0 +1,12 @@
+ 
+  /* Media query for medium screens */
+  @media  (min-width: 452px) and (max-width: 700px) {
+    #img {
+    
+    width:250px ;
+    height:150px ;
+    
+    }
+ 
+  }
+  
