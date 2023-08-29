@@ -1,7 +1,12 @@
 @media (max-width: 768px) { /* Small screens */
-    img {
-      width: 60%;
-      height: 30%;
+  #para{
+    height: 100vh;
+  } 
+  #letterPara {
+      /* margin: 0 auto; */
+      width: 10%;
+      font-size:100px ;
+      
     }
   }
   

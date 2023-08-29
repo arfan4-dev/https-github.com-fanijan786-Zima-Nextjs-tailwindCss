@@ -1,14 +1,47 @@
+@media (max-width: 500px) {
+  #container {
+    /* Adjusted image size for screens <= 1025px */
+    /* display: block; */
+    width: 100%;
+    margin: 0%;
+    
 
-@media  (max-width: 768px) {
-     #twentyB {
-      display: block;
-      text-align: left;
-    }
-    #twentyA #twentyB{
-      text-align: justify;
-    }
-    #twentyB p{
-      margin-top: 0%;
-    }
   }
+
+
+   #twentyB{
+    flex-direction: column; /* Change to block display */
+    align-items: center;
+    padding-top: 0; /* Adjust padding as needed */
   
+   
+    
+  }
+  #p3{
+    display: none;
+  }
+    
+  #container #p1, #p2, #p4{
+  
+    font-size: 15px;
+
+  }
+
+  #p1,
+#p2,
+#p4{
+  margin: 0;
+   
+  }
+}
+#twentyB #p1{
+  font-size: 25px;
+  font-weight:500;
+}
+
+#twentyB #p2,#twentyB #p2{
+  line-height: 30px;
+  letter-spacing: 2px;
+  width: 100%;
+  margin:0 auto ;
+}

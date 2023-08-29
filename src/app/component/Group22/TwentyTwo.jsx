@@ -3,7 +3,7 @@ import Image from 'next/image'
 import './style.css'
 const TwentyTwo = () => {
   return (
-    <div className='flex justify-around mt-10 bg-slate-50  sx:block sm:block md:flex  ' id='parent'>
+    <div className='flex justify-around mt-10 bg-slate-50  sx:block sm:block md:flex' id='parent'>
         
 {/* First Div */}
 <div className='flex flex-col justify-between items-start ' id='first'>
@@ -12,10 +12,10 @@ const TwentyTwo = () => {
     <p>ENQUIRIES</p>
     <p>hello@zimogroup.org</p>
   </div>
-
+ 
   <div id='firstB'>
     <p  className='text-6xl'>ZIMO GROUP</p>
-    <Image src='/images/15.png' alt='' width={200} height={200}/> 
+    <div id='imgDiv'><Image src='/images/15.png' alt='' width={200} height={200} id='img12'/> </div>
     <p>ZIMO GROUP LIMITED</p>
     <p>71 - 75 SHELTON STREET COVENT GARDEN LONDON <br /> WC2H 9JQ ENGLAND UNITED KINGDOM</p>
     <p>HELLO@ZIMOGROUP.ORG</p>

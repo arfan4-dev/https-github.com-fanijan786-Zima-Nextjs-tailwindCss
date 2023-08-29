@@ -13,4 +13,17 @@
   }
     
   }
-  
+
+
+  @media (max-width: 600px) {
+
+    #img3 {
+    width:70px;
+    height:70px;  
+    }
+
+    #img1,#img4{
+     margin-top: 150px;
+     justify-content: space-around;
+    }
+  }

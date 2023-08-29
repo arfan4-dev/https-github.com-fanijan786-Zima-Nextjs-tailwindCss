@@ -10,9 +10,9 @@ const GroupSix = () => {
         <div className='absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center '>
           CAR
         </div>
-
+ 
         <Image
-        id='img'
+        id='img6'
           src='/images/carChild.png'
           alt='picture'
           width={400}
