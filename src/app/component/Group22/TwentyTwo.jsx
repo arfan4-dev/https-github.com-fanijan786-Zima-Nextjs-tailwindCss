@@ -3,26 +3,30 @@ import Image from 'next/image'
 import './style.css'
 const TwentyTwo = () => {
   return (
-    <div className='flex justify-around mt-10 bg-slate-50  sx:block sm:block md:flex' id='parent'>
+        <div>
+    <div className='h-[700px] flex justify-around' id='parent22'>
         
 {/* First Div */}
-<div className='flex flex-col justify-between items-start ' id='first'>
+<div className='flex flex-col justify-between items-start ' id='first22'>
 
-  <div id='firstA'>
+  <div id='firstA22' style={{letterSpacing:'3px',}}>
     <p>ENQUIRIES</p>
     <p>hello@zimogroup.org</p>
+  </div> 
+  <p  className='text-6xl' id='hidePara' >ZIMO GROUP</p>
+    <div id='imgHide'  style={{marginLeft:'20px', }}><Image src='/images/15.png' alt='' width={200} height={200} id='img12'/> </div>
+   
+  
+  <div id='firstB22 ' style={{letterSpacing:'3px',  marginLeft:"0px", marginRight:"0px"}}>
+    <p  className='text-6xl' id='firstP22'>ZIMO GROUP</p>
+    <div id='imgDiv' style={{marginLeft:'20px'}}><Image src='/images/15.png' alt='' width={200} height={200} id='img12'/> </div>
+    <p  id='firstP23'>ZIMO GROUP LIMITED</p>
+    <p  id='firstP24'>71 - 75 SHELTON STREET COVENT GARDEN LONDON WC2H 9JQ ENGLAND UNITED KINGDOM</p>
+    <p  id='firstP25'>HELLO@ZIMOGROUP.ORG</p>
+    <p  id='firstP26'>REGISTERED IN ENGLAND 14383397</p>
   </div>
  
-  <div id='firstB'>
-    <p  className='text-6xl'>ZIMO GROUP</p>
-    <div id='imgDiv'><Image src='/images/15.png' alt='' width={200} height={200} id='img12'/> </div>
-    <p>ZIMO GROUP LIMITED</p>
-    <p>71 - 75 SHELTON STREET COVENT GARDEN LONDON <br /> WC2H 9JQ ENGLAND UNITED KINGDOM</p>
-    <p>HELLO@ZIMOGROUP.ORG</p>
-    <p>REGISTERED IN ENGLAND 14383397</p>
-  </div>
-
-  <div>
+  <div id='middle22' style={{letterSpacing:'3px',  marginLeft:"0px", marginRight:"0px"}}>
     <p>ZIMO is a wholly owned subsidiary company of ZIMO GROUP LIMITED. <br /> The registered office is: 71-75 Shelton Street, <br/> Covent Garden, London, WC2H 9JQ, England, United Kingdom.
     </p>
   </div>
@@ -30,13 +34,13 @@ const TwentyTwo = () => {
 </div>
 
 {/* second */}
-<div id='second'        >
+<div id='second22'    style={{letterSpacing:'3px',  marginLeft:"10px", marginRight:"0px"}}    >
     <p>Contact</p>
 </div>
 
 {/* Third */}
-<div className='flex flex-col justify-center items-center  sm:items-start xm:items-start' id='third'>
-   <div>
+<div className='flex flex-col justify-center items-center ' id='third22'>
+   <div style={{letterSpacing:'3px',  marginLeft:"0px", marginRight:"0px"}}>
    <p>REAL ESTATE</p>
     <p>realestate@zimogroup.org</p>
     <p>CARS</p>
@@ -59,8 +63,8 @@ const TwentyTwo = () => {
 {/* Fourth */}
 
 
-<div className='' id='fourth'>
-    <div>
+<div className='' id='fourth22'>
+    <div style={{letterSpacing:'3px',  marginLeft:"0px", marginRight:"0px"}}>
         <p>PROPERTY PROFESSIONALS / AGENTS
 </p>
         <p>agent@zimogroup.org
@@ -85,10 +89,10 @@ const TwentyTwo = () => {
         <p>MARKETING</p>
         <p>marketing@zimogroup.org
 </p>
-       <br />
+
     </div>
 
-    <div>
+    <div style={{letterSpacing:'3px',  marginLeft:"0px", marginRight:"0px"}}>
     <p>PRESS</p>
 <br />
         <p>UNITED KINGDOM
@@ -122,7 +126,11 @@ const TwentyTwo = () => {
     </div>
 </div>
 
+    </div >
+    <div id='fifth' style={{width:"50%", marginTop:'20px',letterSpacing:'3px', textAlign:'justify'}}>ZIMO is a wholly owned subsidiary company of ZIMO GROUP LIMITED.
+The registered officeis : 71 - 75 Shelton Street, Covent Garden , London , WC2H 9 JQ, England , United Kingdom</div>
     </div>
+   
   )
 }
 

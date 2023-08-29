@@ -3,7 +3,7 @@ import Image from 'next/image'
 import './style.css'
 const GroupFour = () => {
   return (
-    <div  style={{ position: 'relative', height: '600px' }} id='parent4'>
+    <div  style={{ position: 'relative', height: '500px' }} id='parent4'>
      <p id='letterPara' style={{ filter: 'blur(7px)', position: 'absolute', top: '40%', left: '33%',letterSpacing:'10px', fontSize:'60px', color:'white' }}>ZIMO GROUP</p>
   
     <div className='h-[500px] bg-black text-white' id='para'>

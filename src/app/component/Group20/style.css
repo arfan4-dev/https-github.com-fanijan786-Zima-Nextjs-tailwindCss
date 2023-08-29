@@ -1,47 +1,64 @@
-@media (max-width: 500px) {
+
+#twentyB #p2{
+  letter-spacing:5px; 
+  text-align:justify;
+  line-height:50px;
+}
+
+#twentyB #p4{
+   margin-right:150px;
+  letter-spacing:5px; 
+  text-align:justify;
+  line-height:50px;
+}
+
+
+@media (max-width: 600px) {
   #container {
-    /* Adjusted image size for screens <= 1025px */
-    /* display: block; */
     width: 100%;
     margin: 0%;
-    
-
   }
 
-
-   #twentyB{
-    flex-direction: column; /* Change to block display */
+  #twentyB {
+    flex-direction: column;
+    /* Change to block display */
     align-items: center;
-    padding-top: 0; /* Adjust padding as needed */
-  
-   
-    
+    padding-top: 0;
+    /* Adjust padding as needed */
   }
-  #p3{
+
+  #p3 {
     display: none;
   }
-    
-  #container #p1, #p2, #p4{
-  
+
+  #container #p1,
+  #p2,
+  #p4 {
     font-size: 15px;
 
   }
 
   #p1,
-#p2,
-#p4{
-  margin: 0;
-   
+  #p2,
+  #p4 {
+    margin: 0;
   }
 }
-#twentyB #p1{
+
+#twentyB #p1 {
   font-size: 25px;
-  font-weight:500;
+  font-weight: 500;
 }
 
-#twentyB #p2,#twentyB #p2{
-  line-height: 30px;
-  letter-spacing: 2px;
-  width: 100%;
-  margin:0 auto ;
+
+#twentyB #p2,
+#twentyB #p4 {
+  
+  width: 80%;
+  margin: 0 100px;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-left: 10px; /* Adjust this value as needed */
+  margin-right: 10px; /* Adjust this value as needed */
 }

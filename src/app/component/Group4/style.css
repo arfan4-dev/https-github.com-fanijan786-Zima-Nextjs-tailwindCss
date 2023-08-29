@@ -1,12 +1,13 @@
 @media (max-width: 768px) { /* Small screens */
-  #para{
-    height: 100vh;
-  } 
   #letterPara {
       /* margin: 0 auto; */
       width: 10%;
       font-size:100px ;
       
+    }
+
+    .bg-transparent p{
+      padding: 5px;
     }
   }
   
